@@ -1,5 +1,21 @@
+:root{
+    --primary-color: #324f44;
+}
+
 html{
     height: 150vh;
+}
+
+.abril-font{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.roboto-font{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: white;
 }
 
 .navbar{
@@ -23,9 +39,30 @@ html{
     color: black;
 }
 
+.social ul li a i{
+    margin-right: 0.2rem;
+}
+
 .nav-links{
     padding: 0 2rem;
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+}
+
+.social ul{
+    white-space: nowrap;
+}
+
+.touch-today{
+    background-color: var(--primary-color);
+    padding: 30px 200px 30px 100px !important;
+}
+
+.mypad{
+    padding: 0 4rem;
+}
+
+.center-title{
+    color: var(--primary-color);
 }

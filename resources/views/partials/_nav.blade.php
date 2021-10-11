@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 mynav">
-    <div class="container">
+    <div class="container-fluid mx-5">
         <a class="navbar-brands" href="#">LU<br>MO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,10 +23,10 @@
         <div class="social">
             <ul class="m-0">
                 <li>
-                    <a href="">instagram</a>
+                    <a href=""><i class="bi bi-arrow-right"></i>instagram</a>
                 </li>
                 <li>
-                    <a href="">email us</a>
+                    <a href=""><i class="bi bi-arrow-right"></i>email us</a>
                 </li>
             </ul>
         </div>
