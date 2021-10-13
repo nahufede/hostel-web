@@ -1,9 +1,5 @@
 :root{
-    --primary-color: #324f44;
-}
-
-html{
-    height: 150vh;
+    --primary-color: #9a5e39;
 }
 
 .abril-font{
@@ -15,19 +11,28 @@ html{
 }
 
 body{
-    background-color: white;
+    background-color: white !important;
 }
 
 .navbar{
     position: fixed;
     width: 100%;
-    transition: 2s;
+    transition: 1s;
 }
 
 .navbar-brands{
     font-size: 3.5rem;
     line-height: 0.9;
     color: black;
+}
+
+.navbar-brands:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-items{
+    margin-left: auto;
 }
 
 .social ul{
@@ -43,6 +48,10 @@ body{
     margin-right: 0.2rem;
 }
 
+.social{
+    margin-left: auto;
+}
+
 .nav-links{
     padding: 0 2rem;
     text-decoration: none;
@@ -55,8 +64,13 @@ body{
 }
 
 .touch-today{
-    background-color: var(--primary-color);
+    background-image: url('../img/tamaran/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-shadow: 1px 1px 1px black;
     padding: 30px 200px 30px 100px !important;
+    line-height: 40px;
 }
 
 .mypad{
@@ -64,5 +78,25 @@ body{
 }
 
 .center-title{
-    color: var(--primary-color);
+    background-image: url('../img/tamaran/fondo.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-image: url('../img/tamaran/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+footer p{
+    color: white;
+    text-shadow: 1px 1px 1px black;
 }

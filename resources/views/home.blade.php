@@ -5,35 +5,35 @@
         <div class="col-12 d-flex flex-wrap">
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                 <h4 class="roboto-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque qui sequi consequatur id voluptate.</h4>
-                <img src="/../img/1.jpg" class="w-100 pt-5" alt="">
+                <img src="/../img/tamaran/15.jpg" class="w-100 pt-5" alt="">
             </div>
             <div class="col-12 col-md-6">
-                <img src="/../img/2.jpg" class="w-100 px-4" alt="">
+                <img src="/../img/tamaran/3.jpg" class="w-100 px-4" alt="">
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-12 my-5 py-5">
-            <h1 class="text-center abril-font center-title display-4">We turn your vision into a living, <br> breathing brand you can be proud of.</h1>
+        <div class="col-12 my-5">
+            <h1 class="text-center abril-font center-title display-4 py-5">We turn your vision into a living, <br> breathing brand you can be proud of.</h1>
         </div>
     </div>
     <div class="row mypad">
         <div class="col-12 d-flex flex-wrap my-5 roboto-font">
-            <div class="col-12 col-md-6 d-flex flex-column justify-content-end pl-0 pr-5">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-end">
                 <p>Brand Strategy<i class="bi bi-arrow-right pl-2"></i></p>
-                <img src="/../img/3.jpg" class="w-100 pr-3" alt="">
+                <img src="/../img/tamaran/6.jpg" class="w-100 pr-3" alt="">
             </div>
-            <div class="col-12 col-md-6 pb-5 pl-5">
+            <div class="col-12 col-md-6">
                 <p class="pl-3">Brand Identity<i class="bi bi-arrow-right pl-2"></i></p>
-                <img src="/../img/4.jpg" class="w-100 pl-3" alt="">
+                <img src="/../img/tamaran/8.jpg" class="w-100 pl-3" alt="">
             </div>
-            <div class="col-12 col-md-6 d-flex flex-column justify-content-center pr-5 pl-0">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                 <p>Website Design<i class="bi bi-arrow-right pl-2"></i></p>
-                <img src="/../img/5.jpg" class="w-100 pr-3" alt="">
+                <img src="/../img/tamaran/12.jpg" class="w-100 pr-3" alt="">
             </div>
-            <div class="col-12 col-md-6 pl-5 pl-3">
+            <div class="col-12 col-md-6">
                 <p class="pl-3">Packaging Design<i class="bi bi-arrow-right pl-2"></i></p>
-                <img src="/../img/6.jpg" class="w-100 pl-3" alt="">
+                <img src="/../img/tamaran/1.jpg" class="w-100 pl-3" alt="">
             </div>
         </div>
     </div>
