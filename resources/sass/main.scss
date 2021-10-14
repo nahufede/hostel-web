@@ -18,7 +18,6 @@ body{
     position: fixed;
     width: 100%;
     transition: 1s;
-    box-shadow: 3px 3px 8px black;
 }
 
 .navbar-brands{
@@ -65,7 +64,7 @@ body{
 }
 
 .touch-today{
-    background-image: url('../img/tamaran/fondo.jpg');
+    background-image: url('../img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -79,7 +78,7 @@ body{
 }
 
 .center-title{
-    background-image: url('../img/tamaran/fondo.jpg');
+    background-image: url('../img/background.jpg');
     background-size: auto;
     background-repeat: no-repeat;
     background-position: top;
@@ -91,7 +90,7 @@ footer{
     position: absolute;
     width: 100%;
     bottom: 0;
-    background-image: url('../img/tamaran/fondo.jpg');
+    background-image: url('../img/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -105,43 +104,56 @@ footer p{
 .first-wrapper{
     display: grid;
     grid-template-columns: 15px repeat(3, 1fr) 40px repeat(3, 1fr) 15px;
-    grid-template-rows: 50px repeat(12, 70px) 50px;
+    grid-template-rows: 50px repeat(10, 1fr) 50px;
 }
 
 .first-left{
     grid-column: 2/5;
-    grid-row: 3;
+    grid-row: 3/10;
 }
 
 .first-right{
     grid-column: 6/9;
-    grid-row: 2;
+    grid-row: 2/12;
 }
 
 .second-wrapper{
     display: grid;
     grid-template-columns: 15px repeat(3, 1fr) 40px repeat(3, 1fr) 15px;
-    grid-template-rows: 20px repeat(39, 50px) 20px;
+    grid-template-rows: 20px repeat(36, 1fr) 20px;
 }
 
 .second-left-top{
     grid-column: 2/5;
-    grid-row: 5;
+    grid-row: 3/20;
 }
 
 .second-right-top{
     grid-column: 6/9;
-    grid-row: 2;
+    grid-row: 2/20;
 }
 
 .second-left-bottom{
     grid-column: 2/5;
-    grid-row: 24;
+    grid-row: 22/36;
 }
 
 .second-right-bottom{
     grid-column: 6/9;
-    grid-row: 23;
+    grid-row: 21/37;
 }
 
+img{
+    object-fit: cover;
+    max-height: 100%;
+    width: 100%;
+}
 
+.navbar-toggler{
+    border: none;
+}
+
+.bi-justify{
+    font-size: 30px;
+    color: var(--primary-color);
+}
