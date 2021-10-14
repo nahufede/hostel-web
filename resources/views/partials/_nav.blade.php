@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white py-5 mynav">
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-4 mynav">
     <div class="container-fluid mx-5">
         <a class="navbar-brands" href="{{route('index')}}"><img src="/../img/tamaran/logo.png" alt="" style="width: 120px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -9,7 +9,7 @@
 </head>
 <body>
     @include('partials._nav')
-    <div class="container-fluid" style="padding: 231px 0">
+    <div class="container-fluid" style="padding: 184px 0">
         @yield('content')
     </div>
     <script src="{{asset('js/app.js')}}"></script>

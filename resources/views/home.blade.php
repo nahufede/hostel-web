@@ -2,13 +2,13 @@
 
 @section('content')
     <div class="row mypad">
-        <div class="col-12 d-flex flex-wrap">
-            <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+        <div class="col-12 first-wrapper">
+            <div class="first-left">
                 <h4 class="roboto-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque qui sequi consequatur id voluptate.</h4>
-                <img src="/../img/tamaran/15.jpg" class="w-100 pt-5" alt="">
+                <img src="/../img/tamaran/15.jpg" class="w-100 pt-3" alt="">
             </div>
-            <div class="col-12 col-md-6">
-                <img src="/../img/tamaran/3.jpg" class="w-100 px-4" alt="">
+            <div class="first-right">
+                <img src="/../img/tamaran/3.jpg" class="w-100" alt="">
             </div>
         </div>
     </div>
@@ -18,20 +18,20 @@
         </div>
     </div>
     <div class="row mypad">
-        <div class="col-12 d-flex flex-wrap my-5 roboto-font">
-            <div class="col-12 col-md-6 d-flex flex-column justify-content-end">
+        <div class="second-wrapper my-5 roboto-font">
+            <div class="second-left-top">
                 <p>Brand Strategy<i class="bi bi-arrow-right pl-2"></i></p>
                 <img src="/../img/tamaran/6.jpg" class="w-100 pr-3" alt="">
             </div>
-            <div class="col-12 col-md-6">
+            <div class="second-right-top">
                 <p class="pl-3">Brand Identity<i class="bi bi-arrow-right pl-2"></i></p>
                 <img src="/../img/tamaran/8.jpg" class="w-100 pl-3" alt="">
             </div>
-            <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+            <div class="second-left-bottom">
                 <p>Website Design<i class="bi bi-arrow-right pl-2"></i></p>
                 <img src="/../img/tamaran/12.jpg" class="w-100 pr-3" alt="">
             </div>
-            <div class="col-12 col-md-6">
+            <div class="second-right-bottom">
                 <p class="pl-3">Packaging Design<i class="bi bi-arrow-right pl-2"></i></p>
                 <img src="/../img/tamaran/1.jpg" class="w-100 pl-3" alt="">
             </div>
