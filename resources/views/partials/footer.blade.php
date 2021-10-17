@@ -1,5 +1,5 @@
 <footer>
-    <div class="container-fluid ">
+    <div class="container-fluid">
         <div class="row py-4 px-5">
             <div class="col-12 d-flex">
                 <div class="col-6 navbar-brands"></div>

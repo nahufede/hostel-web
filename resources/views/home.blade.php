@@ -6,10 +6,10 @@
         <div class="col-12 first-wrapper">
             <div class="first-left">
                 <h4 class="roboto-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque qui sequi consequatur id voluptate.</h4>
-                <img src="/../img/0-1-min.jpg" class="pt-3" alt="">
+                <img src="/../img/home/0-1-min.jpg" class="pt-3" alt="">
             </div>
             <div class="first-right">
-                <img src="/../img/0-2-min.jpg" class="" alt="">
+                <img src="/../img/home/0-2-min.jpg" class="" alt="">
             </div>
         </div>
     </div>
@@ -22,19 +22,19 @@
         <div class="second-wrapper roboto-font">
             <div class="second-left-top">
                 <p>Make travel friends<i class="bi bi-arrow-right ps-2"></i></p>
-                <img src="/../img/1-1-min.jpg" class="pr-3" alt="">
+                <img src="/../img/home/1-1-min.jpg" class="pr-3" alt="">
             </div>
             <div class="second-right-top">
                 <p>Share your time<i class="bi bi-arrow-right ps-2"></i></p>
-                <img src="/../img/1-2-min.jpg" class="pl-3" alt="">
+                <img src="/../img/home/1-2-min.jpg" class="pl-3" alt="">
             </div>
             <div class="second-left-bottom">
                 <p>Connect & Disconnect<i class="bi bi-arrow-right ps-2"></i></p>
-                <img src="/../img/1-3-min.jpg" class="pr-3" alt="">
+                <img src="/../img/home/1-3-min.jpg" class="pr-3" alt="">
             </div>
             <div class="second-right-bottom">
                 <p>Be yourself<i class="bi bi-arrow-right ps-2"></i></p>
-                <img src="/../img/1-4-min.jpg" class="pl-3" alt="">
+                <img src="/../img/home/1-4-min.jpg" class="pl-3" alt="">
             </div>
         </div>
     </div>

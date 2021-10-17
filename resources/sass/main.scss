@@ -87,9 +87,9 @@ body{
 }
 
 footer{
-    position: absolute;
+    /* position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 0; */
     background-image: url('../img/background-min.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -219,4 +219,8 @@ textarea{
 
 .contact-navbar .social *a{
     color: white;
+}
+
+.services-label p{
+    text-align: justify;
 }

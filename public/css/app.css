@@ -11378,9 +11378,9 @@ body {
 }
 
 footer {
-  position: absolute;
+  /* position: absolute;
   width: 100%;
-  bottom: 0;
+  bottom: 0; */
   background-image: url(/images/background-min.jpg?f31a74dfc7af0efec67b9ceec5ec9108);
   background-size: cover;
   background-repeat: no-repeat;
@@ -11509,5 +11509,8 @@ textarea {
 
 .contact-navbar .social * a {
   color: white;
-  text-shadow: none;
+}
+
+.services-label p {
+  text-align: justify;
 }
