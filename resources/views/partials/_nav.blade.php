@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white py-4 mynav">
+<nav class="navbar navbar-expand-lg navbar-light py-4 mynav {{contactPage()}}">
     <div class="container-fluid mx-4">
-        <a class="navbar-brands" href="{{route('index')}}"><img src="/../img/logo-only.png" alt="" style="width: 80px"></a>
+        <a class="navbar-brands" href="{{route('index')}}"><img src="/../img/{{request()->routeIs('contact') ? 'logo-only-white' : 'logo-only'}}.png" alt="" style="width: 80px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="bi bi-justify"></i>
         </button>
@@ -11,13 +11,13 @@
                         <a class="nav-links" href="{{route('index')}}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-links" href="{{route('services')}}">Services</a>
+                        <a class="nav-links {{setActive('services')}}" href="{{route('services')}}">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-links" href="{{route('about')}}">About Us</a>
+                        <a class="nav-links {{setActive('about')}}" href="{{route('about')}}">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-links" href="{{route('contact')}}">Contact</a>
+                        <a class="nav-links {{setActive('contact')}}" href="{{route('contact')}}">Contact</a>
                     </li>
                     <li class="d-lg-none pt-3">
                         <img src="/../img/logo-text.png" alt="" style="width: 200px"></a>

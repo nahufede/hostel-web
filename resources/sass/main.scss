@@ -37,7 +37,7 @@ body{
 
 .social ul{
     list-style: none;
-    text-decoration: none;
+    text-decoration: underline !important;
 }
 
 .social ul li a{
@@ -64,7 +64,7 @@ body{
 }
 
 .touch-today{
-    background-image: url('../img/background.jpg');
+    background-image: url('../img/background-min.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -78,7 +78,7 @@ body{
 }
 
 .center-title{
-    background-image: url('../img/background.jpg');
+    background-image: url('../img/background-min.jpg');
     background-size: auto;
     background-repeat: no-repeat;
     background-position: top;
@@ -90,7 +90,7 @@ footer{
     position: absolute;
     width: 100%;
     bottom: 0;
-    background-image: url('../img/background.jpg');
+    background-image: url('../img/background-min.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -99,6 +99,15 @@ footer{
 footer p{
     color: white;
     text-shadow: 1px 1px 1px black;
+}
+
+#contact-footer{
+    text-shadow: 1px 1px 1px black;
+}
+
+#contact-footer a{
+    text-decoration: none;
+    color: white;
 }
 
 .first-wrapper{
@@ -156,4 +165,58 @@ img{
 .bi-justify{
     font-size: 30px;
     color: var(--primary-color);
+}
+
+#contact{
+    background-color: #7e4528;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+form input, textarea{
+    background-color: transparent;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    color: white;
+    padding: 20px 0;
+}
+
+form button{
+    align-self: end;
+    padding: 5px 50px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+textarea{
+   resize: none;
+}
+
+@media (min-width: 992px) {
+
+    .contact-navbar .active-link{
+        border-bottom: 1px solid #fff !important;
+    }
+
+    .active-link{
+        border-bottom: 1px solid #000;
+        padding-bottom: 4px;
+    }
+}
+
+.contact-navbar{
+    color: white;
+    background-color: #7e4528;
+}
+
+.contact-navbar a{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.contact-navbar .social *a{
+    color: white;
 }

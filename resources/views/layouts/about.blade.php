@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>About Us</h1>
+    <div class="container-fluid" style="padding: 123px">
+        <h1>About Us</h1>
+    </div>
     @include('partials.footer')
 @endsection

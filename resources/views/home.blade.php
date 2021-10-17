@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="container-fluid" style="padding: 123px 0">
     <div class="row mypad">
         <div class="col-12 first-wrapper">
             <div class="first-left">
@@ -59,4 +60,5 @@
             </div>
         </div>
     </div>
+</div>
 @endsection
