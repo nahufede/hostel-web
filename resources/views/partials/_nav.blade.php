@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light py-4 mynav {{contactPage()}}">
     <div class="container-fluid mx-4">
-        <a class="navbar-brands" href="{{route('index')}}"><img src="/../img/{{request()->routeIs('contact') ? 'logo-only-white' : 'logo-only'}}.png" alt="" style="width: 80px"></a>
+        <a class="navbar-brands" href="{{route('index')}}"><img src="/../img/{{request()->routeIs('contact') ? 'logo-only-white' : 'logo-complete'}}.png" alt="" style="width: 80px"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <i class="bi bi-justify"></i>
         </button>

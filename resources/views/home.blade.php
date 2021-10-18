@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container-fluid" style="padding: 123px 0">
+<div class="container-fluid" style="padding: 139px 0">
     <div class="row mypad">
-        <div class="col-12 first-wrapper">
-            <div class="first-left">
+        <div class="col-12 home-first-wrapper">
+            <div class="home-first-left">
                 <h4 class="roboto-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque qui sequi consequatur id voluptate.</h4>
                 <img src="/../img/home/0-1-min.jpg" class="pt-3" alt="">
             </div>
-            <div class="first-right">
+            <div class="home-first-right">
                 <img src="/../img/home/0-2-min.jpg" class="" alt="">
             </div>
         </div>
@@ -19,20 +19,20 @@
         </div>
     </div>
     <div class="row mypad">
-        <div class="second-wrapper roboto-font">
-            <div class="second-left-top">
+        <div class="home-second-wrapper roboto-font">
+            <div class="home-second-left-top">
                 <p>Make travel friends<i class="bi bi-arrow-right ps-2"></i></p>
                 <img src="/../img/home/1-1-min.jpg" class="pr-3" alt="">
             </div>
-            <div class="second-right-top">
+            <div class="home-second-right-top">
                 <p>Share your time<i class="bi bi-arrow-right ps-2"></i></p>
                 <img src="/../img/home/1-2-min.jpg" class="pl-3" alt="">
             </div>
-            <div class="second-left-bottom">
+            <div class="home-second-left-bottom">
                 <p>Connect & Disconnect<i class="bi bi-arrow-right ps-2"></i></p>
                 <img src="/../img/home/1-3-min.jpg" class="pr-3" alt="">
             </div>
-            <div class="second-right-bottom">
+            <div class="home-second-right-bottom">
                 <p>Be yourself<i class="bi bi-arrow-right ps-2"></i></p>
                 <img src="/../img/home/1-4-min.jpg" class="pl-3" alt="">
             </div>

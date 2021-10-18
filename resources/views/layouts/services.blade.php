@@ -1,15 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container-fluid" style="padding-top: 123px">
+    <div class="container-fluid" style="padding-top: 139px">
         <div class="row mypad">
             <div class="col-12 py-5 d-flex">
                 <div class="col-4">
-                    <img src="../img/services/1.jpg" alt="">
+                    <img src="../img/services/0-1-min.jpg" alt="">
                 </div>
                 <div class="col-8 px-5">
-                    <h1 class="abril-font center-title">6 WAYS TO WORK WITH US</h1>
-                    <div class="pe-4 roboto-font services-label" style="overflow-y: scroll; height:640px;">
+                    <h1 class="abril-font center-title mb-4">6 WAYS TO WORK WITH US</h1>
+                    <div class="pe-4 roboto-font services-label" style="overflow-y: scroll; height:557px;">
                         <div class="py-4">
                             <h3><i class="bi bi-arrow-right me-2"></i>Brand Strategy</h3>
                             <p class="m-0">Great brands are built on bloody good strategy. This is the part where we work with you in collaboration to dig deep, unearth and carve out those important inner workings of your brand. Giving you the structure your brand needs to push the boundaries in the right direction and for the right reasons.</p>

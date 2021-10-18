@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container-fluid" style="padding-top: 123px" id="contact">
+<div class="container-fluid" style="padding-top: 139px" id="contact">
     <div class="row">
         <div class="col-12 d-flex mypad" style="padding-top: 110px; height: 100vh;">
             <div class="col-6 pe-5 d-flex flex-column" style="height: 50%;">
