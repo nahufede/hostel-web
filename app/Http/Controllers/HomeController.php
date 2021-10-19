@@ -25,4 +25,10 @@ class HomeController extends Controller
     {
         return view('layouts.services');
     }
+
+    public function locale($locale)
+    {
+        session()->put('locale', $locale);
+        return redirect()->back();
+    }
 }

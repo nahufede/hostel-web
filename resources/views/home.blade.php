@@ -1,45 +1,45 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container-fluid" style="padding: 139px 0">
+<div class="container-fluid" style="padding: 112px 0">
     <div class="row mypad">
-        <div class="col-12 home-first-wrapper">
+        <div class="col-12 home-first-wrapper pt-3">
             <div class="home-first-left">
-                <h4 class="roboto-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque qui sequi consequatur id voluptate.</h4>
-                <img src="/../img/home/0-1-min.jpg" class="pt-3" alt="">
+                <h4 class="roboto-font mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam doloremque qui sequi consequatur id voluptate.</h4>
+                <img class="grid-img" src="/../img/home/0-1-min.jpg" class="pt-3" alt="">
             </div>
-            <div class="home-first-right">
-                <img src="/../img/home/0-2-min.jpg" class="" alt="">
+            <div class="home-first-right py-3 d-none d-md-block">
+                <img class="grid-img" src="/../img/home/0-2-min.jpg" class="" alt="">
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
-            <h1 class="text-center abril-font center-title display-4 py-5 m-0">We turn your vision into a living, <br> breathing brand you can be proud of.</h1>
+            <h1 class="text-center abril-font center-title display-4 py-5 px-3 m-0">We turn your vision into a living, <br> breathing brand you can be proud of.</h1>
         </div>
     </div>
     <div class="row mypad">
         <div class="home-second-wrapper roboto-font">
             <div class="home-second-left-top">
-                <p>Make travel friends<i class="bi bi-arrow-right ps-2"></i></p>
-                <img src="/../img/home/1-1-min.jpg" class="pr-3" alt="">
+                <p class="my-4">Make travel friends<i class="bi bi-arrow-right ps-2"></i></p>
+                <img class="grid-img" src="/../img/home/1-1-min.jpg" class="pr-3" alt="">
             </div>
             <div class="home-second-right-top">
-                <p>Share your time<i class="bi bi-arrow-right ps-2"></i></p>
-                <img src="/../img/home/1-2-min.jpg" class="pl-3" alt="">
+                <p class="my-4">Share your time<i class="bi bi-arrow-right ps-2"></i></p>
+                <img class="grid-img" src="/../img/home/1-2-min.jpg" class="pl-3" alt="">
             </div>
             <div class="home-second-left-bottom">
-                <p>Connect & Disconnect<i class="bi bi-arrow-right ps-2"></i></p>
-                <img src="/../img/home/1-3-min.jpg" class="pr-3" alt="">
+                <p class="my-4">Connect & Disconnect<i class="bi bi-arrow-right ps-2"></i></p>
+                <img class="grid-img" src="/../img/home/1-3-min.jpg" class="pr-3" alt="">
             </div>
             <div class="home-second-right-bottom">
-                <p>Be yourself<i class="bi bi-arrow-right ps-2"></i></p>
-                <img src="/../img/home/1-4-min.jpg" class="pl-3" alt="">
+                <p class="my-4">Be yourself<i class="bi bi-arrow-right ps-2"></i></p>
+                <img class="grid-img" src="/../img/home/1-4-min.jpg" class="pl-3" alt="">
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-12 touch-today py-5 my-5" style="font-size: 1.2rem;">
+        <div class="col-12 touch-today py-5 my-5" style="font-size: calc(0.5rem + 1vw);">
             <p class="text-white">Whether you need bloody good branding, strategy or design (or the full shebang), we've got you. And yes, we just said bloody good. By that, we mean an end-result that authentically reflects you AND is strategically aligned with your audience.</p>
             <p class="text-white">We are based in Brisbane but thanks to clever technology (and coffee...and timezone calculators) we are able to work with clients across Australia and the globe with ease. So please get in touch, we would love to partner with you.</p>
             <p class="text-white m-0">Get in touch today<i class="bi bi-arrow-right ps-2"></i></p>

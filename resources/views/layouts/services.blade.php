@@ -1,13 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container-fluid" style="padding-top: 139px">
+    <div class="container-fluid" style="padding-top: 112px">
         <div class="row mypad">
-            <div class="col-12 py-5 d-flex">
-                <div class="col-4">
-                    <img src="../img/services/0-1-min.jpg" alt="">
+            <div class="services-first-wrapper py-5">
+                <div class="services-left">
+                    <img src="../img/services/0-1-min.jpg" class="services-img" alt="">
                 </div>
-                <div class="col-8 px-5">
+                <div class="services-right">
                     <h1 class="abril-font center-title mb-4">6 WAYS TO WORK WITH US</h1>
                     <div class="pe-4 roboto-font services-label" style="overflow-y: scroll; height:557px;">
                         <div class="py-4">
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 touch-today py-5" style="font-size: 1.2rem;">
+            <div class="col-12 touch-today py-5" style="font-size: calc(0.5rem + 1vw);">
                 <p class="text-white">But we know that every business has different needs, wants and ideas so book a chat with us so we can hear your story, find out what you need and share some of our advice for how to best move forward.</p>
                 <a href="{{route('contact')}}" class="text-white m-0">Book a chat<i class="bi bi-arrow-right ps-2"></i></a>
             </div>

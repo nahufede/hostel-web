@@ -5269,11 +5269,14 @@ if (window.location.pathname === "/") {
     var body = document.querySelector('body');
     var height = window.innerHeight - navbar.clientHeight;
     var middle = body.clientHeight / 2;
+    var navlang = document.querySelector('#nav-langdrop');
 
     if (scrollY > middle) {
       navbar.style.cssText = "transition:1s; transform: translate(0,".concat(height, "px); z-index:9");
+      navlang.className = 'btn-group dropup ps-4';
     } else if (scrollY < middle) {
       navbar.style.cssText = "top: 0; z-index:9";
+      navlang.className = 'btn-group drodown ps-4';
     }
   });
 }
