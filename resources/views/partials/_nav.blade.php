@@ -30,7 +30,7 @@
                         <a href=""><i class="bi bi-arrow-right"></i>instagram</a>
                     </li>
                     <li>
-                        <a href=""><i class="bi bi-arrow-right"></i>email us</a>
+                        <a href=""><i class="bi bi-arrow-right"></i>{{__('ui.emailus')}}</a>
                     </li>
                 </ul>
             </div>

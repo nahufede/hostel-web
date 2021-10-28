@@ -9,4 +9,5 @@ return [
     'name' => 'Name',
     'submit' => 'SUBMIT',
     'message' => 'Message',
+    'emailus' => 'email us'
 ];

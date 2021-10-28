@@ -8,8 +8,8 @@
                     <img src="../img/services/0-1-min.jpg" class="services-img" alt="">
                 </div>
                 <div class="services-right">
-                    <h1 class="abril-font center-title mb-4">6 WAYS TO WORK WITH US</h1>
-                    <div class="pe-4 roboto-font services-label" style="overflow-y: scroll; height:557px;">
+                    <h1 class="abril-font background-font mb-4">6 WAYS TO WORK WITH US</h1>
+                    <div class="pe-4 roboto-font services-label">
                         <div class="py-4">
                             <h3><i class="bi bi-arrow-right me-2"></i>Brand Strategy</h3>
                             <p class="m-0">Great brands are built on bloody good strategy. This is the part where we work with you in collaboration to dig deep, unearth and carve out those important inner workings of your brand. Giving you the structure your brand needs to push the boundaries in the right direction and for the right reasons.</p>
@@ -47,7 +47,7 @@
         <div class="row mypad py-5">
             <div class="col-12 d-flex flex-wrap">
                 <div class="col-12 col-md-5" style="font-size: 2rem;">
-                    <p class="abril-font center-title m-0">
+                    <p class="abril-font background-font m-0">
                         LUMO was able to listen and truly connect my vision of what I was looking for in a brand and website with a creative representation.
                     </p>
                 </div>

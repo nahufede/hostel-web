@@ -8,4 +8,5 @@ return [
     'email' => 'Correo',
     'message' => 'Ingrese su mensaje aqui ...',
     'submit' => 'ENVIAR',
+    'emailus' => 'contáctanos'
 ];

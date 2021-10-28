@@ -15,7 +15,7 @@
     </div>
     <div class="row">
         <div class="col-12">
-            <h1 class="text-center abril-font center-title display-4 py-5 px-3 m-0">We turn your vision into a living, <br> breathing brand you can be proud of.</h1>
+            <h1 style="font-size: calc(2rem + 2vw);" class="text-center abril-font background-font display-4 py-5 px-3 m-0">We turn your vision into a living, <br> breathing brand you can be proud of.</h1>
         </div>
     </div>
     <div class="row mypad">
@@ -48,7 +48,7 @@
     <div class="row mypad">
         <div class="col-12 d-flex flex-wrap">
             <div class="col-12 col-md-5" style="font-size: 2rem;">
-                <p class="abril-font center-title">
+                <p class="abril-font background-font">
                     They get everything right the first time around and they listen to what your brand truly needs.
                 </p>
             </div>
